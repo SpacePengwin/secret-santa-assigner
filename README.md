@@ -1,7 +1,7 @@
 # secret-santa-assigner
 
 # Purpose:
-  With the coronavirus causing all things to go virtual, I realized that a traditional secret-santa between families may not be able to be drawn from a hat! In order to keep the true anonymous purpose of secret santa, we can't have one person choose a random assignee for each person participating in the Secret Santa as they would then know who was assigned to who.
+  With the coronavirus causing all things to go virtual, a traditional secret santa between families may not be able to be drawn from a hat! In order to keep the true anonymous purpose of secret santa, we can't have one person choose a random assignee for each person participating in the Secret Santa as they would then know who was assigned to who.
 
 This small project solves that issue.
 
