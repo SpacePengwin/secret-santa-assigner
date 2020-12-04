@@ -66,10 +66,10 @@ def draft_messages(output, org_title, organizer_name, dollar_limit=None):
 		contact_method = data["contact_method"]
 		assigned_name = data["gift_assignment_name"]
 		assigned_id = data["gift_assignment_id"]
-		msg = '''Hello!
+		msg = '''Hello {}!
 You have been entered in by {} for the {} Secret Santa.
 You have been assigned to give a present to: {}.
-		'''.format(organizer_name, org_title, contacted_username)
+		'''.format(contacted_username, organizer_name, org_title, assigned_name)
 		if dollar_limit is not None:
 			if dollar_limit != "":
 				msg = msg + "\nThe present is limited to: ${}".format(dollar_limit)
